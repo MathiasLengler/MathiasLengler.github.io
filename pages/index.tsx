@@ -1,19 +1,19 @@
 import Head from 'next/head'
 
-import {GetStaticPaths, GetStaticProps} from 'next'
-
-export const getStaticProps: GetStaticProps = async context => {
-  return {props: {}};
-};
-
-export const getStaticPaths: GetStaticPaths = async () => {
-  return {
-    paths: [
-      {params: {}}
-    ],
-    fallback: false
-  }
-};
+// import {GetStaticPaths, GetStaticProps} from 'next'
+//
+// export const getStaticProps: GetStaticProps = async context => {
+//   return {props: {}};
+// };
+//
+// export const getStaticPaths: GetStaticPaths = async () => {
+//   return {
+//     paths: [
+//       {params: {}}
+//     ],
+//     fallback: false
+//   }
+// };
 
 
 const Home = () => (
