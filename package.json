@@ -1,10 +1,9 @@
 {
   "name": "mathiaslengler.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -12,12 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/MathiasLengler/MathiasLengler.github.io.git"
   },
-  "author": "",
+  "author": "Mathias Lengler",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MathiasLengler/MathiasLengler.github.io/issues"
   },
-  "homepage": "https://github.com/MathiasLengler/MathiasLengler.github.io#readme",
+  "homepage": "https://lengler.dev",
   "dependencies": {
     "next": "^9.3.2",
     "react": "^16.13.1",
