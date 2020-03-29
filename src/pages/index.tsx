@@ -15,6 +15,7 @@ import Head from 'next/head'
 //   }
 // };
 
+// TODO: replace with projects
 
 const Home = () => (
   <div className="container">
@@ -216,4 +217,4 @@ const Home = () => (
   </div>
 );
 
-export default Home
+export default Home;
