@@ -1,10 +1,26 @@
 import Head from 'next/head'
 
+import {GetStaticPaths, GetStaticProps} from 'next'
+
+export const getStaticProps: GetStaticProps = async context => {
+  return {props: {}};
+};
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: [
+      {params: {}}
+    ],
+    fallback: false
+  }
+};
+
+
 const Home = () => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.ico"/>
     </Head>
 
     <main>
@@ -53,7 +69,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
+        Powered by <img src="/zeit.svg" alt="ZEIT Logo"/>
       </a>
     </footer>
 
@@ -198,6 +214,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
 export default Home
