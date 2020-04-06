@@ -1,7 +1,7 @@
 # TODO
 
-Adjust material-ui/next setup: https://github.com/mui-org/material-ui/tree/master/examples/nextjs
-
 ## Deployment
-- github actions?
+- github actions
+    - https://github.com/JamesIves/github-pages-deploy-action
 - gh-pages only on master for user site
+    - develop branch CI to master
