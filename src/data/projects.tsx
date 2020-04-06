@@ -14,7 +14,7 @@ export const projects: Array<Project> = [
     title: "TimesTableWebGL",
     links: {
       github: "https://github.com/MathiasLengler/TimesTableWebGL",
-      demo: "/TimesTableWebGL/"
+      demo: "https://lengler.dev/TimesTableWebGL/"
     },
     teaserImgSrc: "res/img/timestable-teaser.png"
   },
